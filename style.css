@@ -1,0 +1,223 @@
+.nav1{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+#name{
+     font-family: "Exo", sans-serif;
+}
+
+.home{
+     position: relative;
+     background-color: black;
+     font-family: "Fredericka the Great", serif;
+     font-size: 90px;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.home span{
+     font-family: "Fredericka the Great", serif;
+    height: 100vh;
+
+}
+.home img{
+     position: absolute;
+     width: 350px;
+     z-index:1;
+     left: 140px;
+     bottom: 100px;
+}
+
+.portfolio1{
+     position: absolute;
+     z-index: 9999;
+}
+
+.about{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     
+     background-color:maroon;
+     font-size: 100px;
+     font-family: "Abril Fatface", serif;
+}
+
+.btn{
+     background-color: white;
+     display: inline;
+}
+
+.box ul{
+     
+     border-radius:8px;
+     display: inline-block;
+     width: 300px;
+     gap: 20;
+     border: 2px solid black;
+     ;
+}
+
+.box{
+     margin-left: 50px;
+     
+
+}
+
+    .skills{
+    width: 500px;
+    margin: 50px auto;
+    color: white;
+    
+    
+}
+
+.title{
+    color: maroon;
+    font-size: 20px;
+}
+
+.skills h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family: "Smooch Sans", sans-serif;
+}
+
+.skill{
+    margin-bottom: 25px;
+}
+
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: "Josefin Slab", serif;
+}
+
+.bar{
+    width: 100%;
+    height: 4px;
+    background: grey;
+}
+
+
+.html{
+    width: 70%;
+}
+
+.css{
+    width: 65%;
+}
+
+.js{
+    width: 75%;
+}
+
+.bootstrap{
+    width: 80%;
+}
+
+.tailwind{
+    width: 80%;
+}
+
+body{
+    background: black;
+}
+
+.line{
+    height: 100%;
+    
+    background: maroon;
+    
+}
+
+
+.contact h4{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: maroon;
+    font-size: 200px;
+    font-weight: 100%;
+    font-family: "Exo", sans-serif;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.774);
+}
+.contact h6{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: maroon;
+    font-size: 30px;
+   
+}
+
+.contact-box{
+    width: 500px;
+    background: maroon;
+    padding: 30px;
+    border-radius: 10px;
+   
+    margin: 50px auto;
+}
+
+.row{
+    display: flex;
+    gap: 15px;
+}
+
+.row input{
+    width: 50%;
+}
+
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+   
+    background: white;
+    border-radius: 5px;
+    
+    font-size: 14px;
+}
+
+.contact-box textarea{
+    height: 120px;
+    
+}
+
+.contact-box button{
+    font-family: "Exo", sans-serif;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    
+    border-radius: 5px;
+    background: linear-gradient(to right, maroon, white,);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+@keyframes bounceAnimation {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+.box{
+  animation-name: bounceAnimation;
+  animation-duration: 2.3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
